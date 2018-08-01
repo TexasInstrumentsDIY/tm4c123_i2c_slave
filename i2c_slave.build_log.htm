@@ -10,47 +10,37 @@ Project File Date:  07/28/2018
 Build target 'Target 1'
 compiling main.c...
 linking...
-Program Size: Code=14204 RO-data=3600 RW-data=1644 ZI-data=1132  
+Program Size: Code=6040 RO-data=12552 RW-data=84 ZI-data=1132  
 ".\i2c_slave.axf" - 0 Error(s), 0 Warning(s).
 Load "C:\\Users\\liuzi\\Google Drive\\Spring 2018\\ValvanoWareTM4C123\\ValvanoWareTM4C123\\I2C_SLAVE\\i2c_slave.axf" 
 Connecting: Mode=JTAG, Speed=1000000Hz
 Erase Done.
 Programming Done.
 Verify OK.
-3600 RW-data=1644 ZI-data=1132  
-".\i2c_slave.axf" - 0 Error(s), 1 Warning(s).
-i2c_slave.axf" 
-Connecting: Mode=JTAG, Speed=1000000Hz
-Connection failed!, error code=&d
-Error: Flash Download failed  -  Target DLL has been cancelled
-Load "C:\\Users\\liuzi\\Google Drive\\Spring 2018\\ValvanoWareTM4C123\\ValvanoWareTM4C123\\I2C_SLAVE\\i2c_slave.axf" 
+23\\ValvanoWareTM4C123\\I2C_SLAVE\\i2c_slave.axf" 
 Connecting: Mode=JTAG, Speed=1000000Hz
 Erase Done.
 Programming Done.
 Verify OK.
-eferred from sysctl.o).
-Not enough information to list image symbols.
-Finished: 1 information, 0 warning and 6 error messages.
-".\i2c_slave.axf" - 6 Error(s), 1 Warning(s).
+ash Download failed  -  Target DLL has been cancelled
+ne.
+Verify OK.
+or target 'Target 1'
+E\\i2c_slave.axf" 
+Connecting: Mode=JTAG, Speed=1000000Hz
+Erase Done.
+Programming Done.
+Verify OK.
+e symbols.
+Finished: 1 information, 0 warning and 3 error messages.
+".\i2c_slave.axf" - 3 Error(s), 3 Warning(s).
 Target not created
-mbol GPIOPinTypeUART (referred from main.o).
-.\i2c_slave.axf: Error: L6218E: Undefined symbol GPIOPinWrite (referred from main.o).
-.\i2c_slave.axf: Error: L6218E: Undefined symbol I2CSlaveDataGet (referred from main.o).
-.\i2c_slave.axf: Error: L6218E: Undefined symbol I2CSlaveDataPut (referred from main.o).
-.\i2c_slave.axf: Error: L6218E: Undefined symbol I2CSlaveEnable (referred from main.o).
-.\i2c_slave.axf: Error: L6218E: Undefined symbol I2CSlaveInit (referred from main.o).
-.\i2c_slave.axf: Error: L6218E: Undefined symbol I2CSlaveIntClear (referred from main.o).
-.\i2c_slave.axf: Error: L6218E: Undefined symbol I2CSlaveIntEnableEx (referred from main.o).
-.\i2c_slave.axf: Error: L6218E: Undefined symbol SysCtlClockGet (referred from main.o).
-.\i2c_slave.axf: Error: L6218E: Undefined symbol SysCtlClockSet (referred from main.o).
-.\i2c_slave.axf: Error: L6218E: Undefined symbol SysCtlDelay (referred from main.o).
-.\i2c_slave.axf: Error: L6218E: Undefined symbol SysCtlPeripheralEnable (referred from main.o).
-.\i2c_slave.axf: Error: L6218E: Undefined symbol SysCtlPeripheralReady (referred from main.o).
-.\i2c_slave.axf: Error: L6218E: Undefined symbol SysCtlPeripheralReset (referred from main.o).
-.\i2c_slave.axf: Error: L6218E: Undefined symbol UARTClockSourceSet (referred from main.o).
-.\i2c_slave.axf: Error: L6218E: Undefined symbol UARTStdioConfig (referred from main.o).
-.\i2c_slave.axf: Error: L6218E: Undefined symbol UARTprintf (referred from main.o).
-Not enough information to list image symbols.
-Finished: 1 information, 0 warning and 26 error messages.
-".\i2c_slave.axf" - 26 Error(s), 1 Warning(s).
+eferenced
+                char key = 0;
+main.c(53): warning:  #550-D: variable "turning" was set but never used
+          char turning = 0;
+main.c(55): warning:  #177-D: variable "num" was declared but never referenced
+                int num = 0;
+main.c: 3 warnings, 6 errors
+".\i2c_slave.axf" - 6 Error(s), 3 Warning(s).
 Target not created
